@@ -27,7 +27,7 @@ class linked_list:
     def add(self):
         print("Ingresa el dia: ")
         day = self.read_int()
-        print("Ingresa el mes")
+        print("Ingresa el mes:")
         month = self.read_int()
         desc = input("Ingresa la descripcion: ")
         os.system("clear")
