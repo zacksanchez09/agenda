@@ -7,7 +7,7 @@ Código: 211172172
 
 import os
 
-class node:
+class Node:
     def __init__(self, day, month, desc):
         self.day = day
         self.month = month
@@ -19,7 +19,7 @@ class node:
             str(self.month) + " desc: " + str(self.desc)
         return str(string)
 
-class linked_list:
+class Linked_List:
     def __init__(self):
         self.first = None
         self.size = 0
@@ -34,7 +34,7 @@ class linked_list:
         try:
 
             if self.validate_date(day, month):
-                MyNode = node(day, month, desc)
+                MyNode = Node(day, month, desc)
                 if self.size == 0:
                     self.first = MyNode
                 else:
@@ -153,7 +153,7 @@ class linked_list:
             actual = actual.next
         return string
 
-diary_list = linked_list()
+diary_list = Linked_List()
 option = 0
 
 while option != '5':
