@@ -1,5 +1,5 @@
 """
-Agenda de Citas
+Agenda de Citas - Lista Ligada
 Seminario de Solución de Problemas de Algoritmia
 Created By: Isaac Eduardo Sánchez Campos
 Código: 211172172
